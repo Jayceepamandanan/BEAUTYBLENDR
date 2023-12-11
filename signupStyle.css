@@ -1,0 +1,137 @@
+/* style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('src/loginBg.jpg');
+    background-size: cover;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+}
+
+
+.logo {
+    width: 150px;
+    display: block;
+    margin: 20px auto; /* Adjust margin to center vertically and horizontally */
+}
+
+
+.welcome-text {
+    text-align: center;
+    margin-top: 20px;
+    color: #555; /* Darker text color */
+}
+
+.signup-form {
+    padding: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #888; /* Lighter label color */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 24px); /* Adjusted width for input fields */
+    padding: 12px;
+    border-radius: 25px;
+    border: 1px solid #e0e0e0;
+    background-color: #f9f9f9;
+    color: #555;
+    margin-right: 12px; /* Margin added to move fields slightly to the left */
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    background-color: #ff80ab; /* Soft pink button color */
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #ff5eac; /* Darker pink on hover */
+}
+
+.custom-line {
+    border: 0;
+    height: 1px;
+    background: #eee; /* Lighter line color */
+    margin: 20px 0;
+}
+
+.sign-up-link {
+    color: #ff80ab; /* Link color matches button */
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+}
+
+h2 {
+    color: #ff80ab;
+}
+
+p {
+    color: #555;
+}
+
+.navbar {
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 50px; /* Adjust the logo width */
+    margin-right: 10px;
+}
+
+.site-name {
+    font-size: 20px;
+}
+
+.sign-out {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.sign-out:hover {
+    text-decoration: none;
+}
